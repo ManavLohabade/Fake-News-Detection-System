@@ -9,7 +9,6 @@ This project aims to identify and classify fake news articles using machine lear
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Dataset](#dataset)  
-- [Project Structure](#project-structure)  
 - [License](#license)  
 
 ## Introduction  
@@ -54,15 +53,11 @@ Fake news has become a significant issue in today's digital age, with the rapid 
 ## Dataset
 This project uses a publicly available dataset of news articles labeled as real or fake. You can find the dataset here. Ensure the dataset is downloaded and placed in the data folder before running the system.
 
-## Project Structure
-   ```php
-Fake-News-Detection-System/  
-├── data/                # Dataset files  
-├── models/              # Trained models  
-├── notebooks/           # Jupyter notebooks for experimentation  
-├── static/              # Static assets (CSS, JS, images)  
-├── templates/           # HTML templates for the web interface  
-├── app.py               # Main application script  
-├── requirements.txt     # Python dependencies  
-└── README.md            # Project documentation  
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
+## Contributions
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
+
+## Contact
+For any queries or suggestions, please contact Manav Lohabade.
