@@ -163,6 +163,9 @@
                 } else if (data.prediction === 'REAL') {
                     predictionResult.textContent = 'Prediction: Real News';
                     predictionResult.className = 'text-center text-2xl font-bold mb-8 text-green-600';
+                } else if (data.prediction === 'Please enter news to predict.') {
+                    predictionResult.textContent = 'Please enter news to predict.';
+                    predictionResult.className = 'text-center text-2xl font-bold mb-8 text-yellow-600';
                 } else {
                     predictionResult.textContent = 'Prediction: Could not determine';
                     predictionResult.className = 'text-center text-2xl font-bold mb-8 text-gray-600';

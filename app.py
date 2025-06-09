@@ -30,6 +30,10 @@ def predict():
     # Get the news input from the request
     news_text = request.form['news_text']
 
+    # Handle empty input
+    if not news_text.strip():
+        return jsonify({'prediction': 'Please enter news to predict.'})
+
     # Preprocess the news text
     cleaned_news_text = preprocess_text(news_text)
 
